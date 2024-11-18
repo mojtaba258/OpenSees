@@ -38,7 +38,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug.DLL|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -384,6 +384,7 @@
     <ClCompile Include="..\..\..\SRC\material\uniaxial\PipeMaterial.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\PY\PySimple3.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\PY\QzLiq1.cpp" />
+    <ClCompile Include="..\..\..\SRC\material\uniaxial\QbSandCPT.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\RambergOsgoodSteel.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\Ratchet.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\ReinforcingSteel.cpp" />
@@ -439,6 +440,7 @@
     <ClCompile Include="..\..\..\SRC\material\uniaxial\Trilinwp2.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\Trilinwpd.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\TriMatrix.cpp" />
+    <ClCompile Include="..\..\..\SRC\material\uniaxial\TzSandCPT.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\UniaxialJ2Plasticity.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\UniaxialMaterial.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\unloading\ConstantUnloadingRule.cpp" />
@@ -831,6 +833,7 @@
     <ClInclude Include="..\..\..\SRC\material\uniaxial\limitState\PinchingLimitStateMaterial.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\fedeas\PlasticDamageMaterial.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\PY\PySimple3.h" />
+    <ClInclude Include="..\..\..\SRC\material\uniaxial\QbSandCPT.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\RambergOsgoodSteel.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\ReinforcingSteel.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\ResilienceLow.h" />
@@ -882,6 +885,7 @@
     <ClInclude Include="..\..\..\SRC\material\uniaxial\Trilinwp2.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\Trilinwpd.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\TriMatrix.h" />
+    <ClInclude Include="..\..\..\SRC\material\uniaxial\TzSandCPT.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\UniaxialJ2Plasticity.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\UniaxialMaterial.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\unloading\ConstantUnloadingRule.h" />
